@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "ExtensionSample",
+  "description": "sample",
+  "version": "1.0",
+  "icons": {
+    "16": "image/icon.png",
+    "48": "image/icon.png",
+    "128": "image/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "https://*/*",
+    "http://*/*"
+  ]
+}
